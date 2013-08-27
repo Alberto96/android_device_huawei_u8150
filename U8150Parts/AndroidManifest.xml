@@ -5,7 +5,7 @@
     <uses-sdk android:minSdkVersion="10" />
 
     <application
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable_mdpi/ic_launcher"
         android:label="@string/app_name" >
         <activity
             android:name=".DeviceSettings"
