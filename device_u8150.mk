@@ -18,11 +18,27 @@ DEVICE_PACKAGE_OVERLAYS += device/huawei/u8150/overlay
 PRODUCT_PACKAGES += \
     libRS \
     hwprops \
-    rzscontrol \
+    copybit.msm7k \
     Gallery \
+    gps.u8150 \
+    gralloc.msm7k \
+    libOmxCore \
+    libOmxVidEnc \
     lights.msm7k \
-    copybit.u8150 \
-    gps.u8150
+    rzscontrol \
+    screencap
+
+# Recovery tools
+PRODUCT_PACKAGES += \
+    flash_image \
+    dump_image \
+    erase_image \
+    make_ext4fs \
+    e2fsck
+
+# U8150Parts
+PRODUCT_PACKAGES += \
+    U8150Parts
 
 # Vold config
 PRODUCT_COPY_FILES += \
