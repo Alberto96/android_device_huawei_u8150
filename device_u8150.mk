@@ -36,10 +36,6 @@ PRODUCT_PACKAGES += \
     make_ext4fs \
     e2fsck
 
-# U8150Parts
-PRODUCT_PACKAGES += \
-    U8150Parts
-
 # Vold config
 PRODUCT_COPY_FILES += \
     device/huawei/u8150/prebuilt/etc/vold.fstab:system/etc/vold.fstab
